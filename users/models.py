@@ -23,6 +23,9 @@ class User(Base):
     card = relationship('Card',  back_populates='card')
 
 
+
+
+
     def __repr__(self):
         return self.username
 
